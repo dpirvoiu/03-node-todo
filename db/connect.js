@@ -1,5 +1,7 @@
 const mongoose = require("mongoose");
 
+// connect to db through mongoose.
+
 const connectDB = (url) => {
   return mongoose.connect(url, {
     useNewUrlParser: true,
