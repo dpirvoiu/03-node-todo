@@ -9,6 +9,8 @@ const createTask = (req, res) => {
   res.json(req.body);
 };
 
+const password = "KCf5UBHUbx_n3Cd"
+
 const getTask = (req, res) => {
   res.send("Get single  task");
 };
